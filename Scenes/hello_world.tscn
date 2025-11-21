@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://da6qe4dvtbt18"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_pb3et"]
+font_size = 32
+font_color = Color(0.675, 0.35000002, 1, 1)
+
+[node name="HelloWorld" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 643.0
+color = Color(1, 0.56078434, 0.74509805, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 467.0
+offset_top = 256.0
+offset_right = 1613.0
+offset_bottom = 690.0
+text = "Hello World"
+label_settings = SubResource("LabelSettings_pb3et")
